@@ -1,0 +1,8 @@
+{
+  "name": "Job Application Tracker",
+  "description": "A placement application tracking platform for students to manage job roles, packages, interview schedules, local browser-stored resumes, Gemini AI resume analysis, and Gmail AI job email detection & sync review.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "users": [
+    {
+      "id": "demo-student-id-101",
+      "name": "Shaurya Vardhan",
+      "email": "shaurya@campus.edu",
+      "college": "National Institute of Technology",
+      "graduationYear": "2026",
+      "branch": "Computer Science & Engineering",
+      "passwordHash": "7bc2e4be2cf385c9bc69717f0edf5f7e150d4f4dee1af8b488d1dce748a6487d"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-001",
+      "userId": "demo-student-id-101",
+      "company": "Google",
+      "role": "Software Development Engineer - I",
+      "packageLPA": 38.5,
+      "currency": "₹",
+      "applicationDate": "2026-08-12",
+      "status": "Interview",
+      "jobType": "Full Time",
+      "location": "Bengaluru / Hyderabad (Hybrid)",
+      "jobLink": "https://careers.google.com/jobs/results/12345",
+      "referral": "Referred by Senior SDE-2 (Alumni)",
+      "notes": "Focus on Distributed Systems, Graphs, and DP problems. Passed online coding assessment with 100% score.",
+      "upcomingInterview": {
+        "id": "int-001",
+        "applicationId": "app-001",
+        "companyName": "Google",
+        "role": "Software Development Engineer - I",
+        "date": "2026-09-04",
+        "time": "14:30",
+        "roundType": "Technical Round 2",
+        "meetingLink": "https://meet.google.com/abc-wxyz-pqr",
+        "interviewer": "Alex Vance (Tech Lead, Cloud Infrastructure)",
+        "notes": "Prepare Google Docs architecture breakdown and Trie data structure optimization.",
+        "completed": false
+      },
+      "history": [
+        {
+          "status": "Applied",
+          "date": "2026-08-12",
+          "note": "Applied through College Placement Portal with referral"
+        },
+        {
+          "status": "Assessment",
+          "date": "2026-08-18",
+          "note": "Completed 2 LC hard coding assessment problems"
+        },
+        {
+          "status": "Interview",
+          "date": "2026-08-25",
+          "note": "Cleared Technical Round 1 on binary trees & graphs"
+        }
+      ],
+      "createdAt": "2026-08-13T05:14:12.904Z",
+      "updatedAt": "2026-08-27T05:14:12.904Z"
+    },
+    {
+      "id": "app-002",
+      "userId": "demo-student-id-101",
+      "company": "Microsoft",
+      "role": "Software Engineer (Azure Platform)",
+      "packageLPA": 44,
+      "currency": "₹",
+      "applicationDate": "2026-08-05",
+      "status": "Selected",
+      "jobType": "Full Time",
+      "location": "Hyderabad, India",
+      "jobLink": "https://careers.microsoft.com/us/en/job/98765",
+      "referral": "On-Campus Placement Drive",
+      "notes": "Received official offer letter! Final round with Partner Director cleared. Joining in July 2026.",
+      "history": [
+        {
+          "status": "Applied",
+          "date": "2026-08-05",
+          "note": "On-campus placement cell registration"
+        },
+        {
+          "status": "Assessment",
+          "date": "2026-08-10",
+          "note": "Codility OA cleared"
+        },
+        {
+          "status": "Interview",
+          "date": "2026-08-17",
+          "note": "3 technical rounds + 1 AA round completed"
+        },
+        {
+          "status": "Selected",
+          "date": "2026-08-22",
+          "note": "Offer accepted with joining bonus and stock options"
+        }
+      ],
+      "createdAt": "2026-08-06T05:14:12.904Z",
+      "updatedAt": "2026-08-24T05:14:12.904Z"
+    },
+    {
+      "id": "app-003",
+      "userId": "demo-student-id-101",
+      "company": "Atlassian",
+      "role": "Associate Software Engineer",
+      "packageLPA": 52,
+      "currency": "₹",
+      "applicationDate": "2026-08-15",
+      "status": "Interview",
+      "jobType": "Full Time",
+      "location": "Bengaluru (Remote First)",
+      "jobLink": "https://atlassian.com/careers/ase-india",
+      "referral": "Employee Referral",
+      "notes": "Values interview coming up. Focus on \"Open Company, No Bullshit\" & \"Play as a Team\".",
+      "upcomingInterview": {
+        "id": "int-002",
+        "applicationId": "app-003",
+        "companyName": "Atlassian",
+        "role": "Associate Software Engineer",
+        "date": "2026-09-02",
+        "time": "11:00",
+        "roundType": "System Design",
+        "meetingLink": "https://zoom.us/j/9182736450",
+        "interviewer": "Rohan Sharma (Principal Engineer)",
+        "notes": "Revise Low Level Design for Rate Limiter and Collaborative Document Editor.",
+        "completed": false
+      },
+      "history": [
+        {
+          "status": "Applied",
+          "date": "2026-08-15",
+          "note": "Applied directly via off-campus careers portal"
+        },
+        {
+          "status": "Assessment",
+          "date": "2026-08-20",
+          "note": "HackerRank coding + work simulation test"
+        },
+        {
+          "status": "Interview",
+          "date": "2026-08-28",
+          "note": "Completed coding round (Concurrency & caching)"
+        }
+      ],
+      "createdAt": "2026-08-16T05:14:12.904Z",
+      "updatedAt": "2026-08-30T05:14:12.904Z"
+    },
+    {
+      "id": "app-004",
+      "userId": "demo-student-id-101",
+      "company": "Goldman Sachs",
+      "role": "Analyst (Global Markets Division)",
+      "packageLPA": 26,
+      "currency": "₹",
+      "applicationDate": "2026-08-01",
+      "status": "Selected",
+      "jobType": "6M Intern + FTE",
+      "location": "Bengaluru, India",
+      "jobLink": "https://goldmansachs.com/careers/analyst",
+      "notes": "Offer letter received! PPO conversion opportunity. 6 months internship + FTE confirmed.",
+      "history": [
+        {
+          "status": "Applied",
+          "date": "2026-08-01",
+          "note": "Registered on on-campus portal"
+        },
+        {
+          "status": "Assessment",
+          "date": "2026-08-07",
+          "note": "Math, quant aptitude + 2 coding questions"
+        },
+        {
+          "status": "Interview",
+          "date": "2026-08-14",
+          "note": "3 rounds on Core CS, OS, OOP, and Puzzles"
+        },
+        {
+          "status": "Selected",
+          "date": "2026-08-19",
+          "note": "Offer received"
+        }
+      ],
+      "createdAt": "2026-08-02T05:14:12.904Z",
+      "updatedAt": "2026-08-21T05:14:12.904Z"
+    },
+    {
+      "id": "app-005",
+      "userId": "demo-student-id-101",
+      "company": "Amazon",
+      "role": "Software Development Engineer - AWS",
+      "packageLPA": 32,
+      "currency": "₹",
+      "applicationDate": "2026-08-10",
+      "status": "Assessment",
+      "jobType": "Full Time",
+      "location": "Hyderabad / Chennai",
+      "jobLink": "https://amazon.jobs/en/jobs/24589",
+      "notes": "Amazon OA completed on August 24. Awaiting interview schedule confirmation for Amazon Leadership Principles round.",
+      "history": [
+        {
+          "status": "Applied",
+          "date": "2026-08-10",
+          "note": "Applied with campus pool"
+        },
+        {
+          "status": "Assessment",
+          "date": "2026-08-24",
+          "note": "Submitted OA 1 (Debugging) & OA 2 (Work Styles)"
+        }
+      ],
+      "createdAt": "2026-08-11T05:14:12.904Z",
+      "updatedAt": "2026-08-26T05:14:12.904Z"
+    },
+    {
+      "id": "app-006",
+      "userId": "demo-student-id-101",
+      "company": "Flipkart",
+      "role": "UI Engineer (Frontend & Mobile)",
+      "packageLPA": 24.5,
+      "currency": "₹",
+      "applicationDate": "2026-08-18",
+      "status": "Assessment",
+      "jobType": "Full Time",
+      "location": "Bengaluru, India",
+      "jobLink": "https://flipkartcareers.com/job/frontend-2026",
+      "notes": "Take home machine coding round due next Tuesday. Building an interactive e-commerce filter widget in React.",
+      "history": [
+        {
+          "status": "Applied",
+          "date": "2026-08-18",
+          "note": "Applied via Flipkart GRiD hackathon fast track"
+        },
+        {
+          "status": "Assessment",
+          "date": "2026-08-27",
+          "note": "Received Machine Coding Assignment"
+        }
+      ],
+      "createdAt": "2026-08-19T05:14:12.904Z",
+      "updatedAt": "2026-08-29T05:14:12.904Z"
+    },
+    {
+      "id": "app-007",
+      "userId": "demo-student-id-101",
+      "company": "Adobe",
+      "role": "Product Development Engineer",
+      "packageLPA": 34,
+      "currency": "₹",
+      "applicationDate": "2026-08-03",
+      "status": "Rejected",
+      "jobType": "Full Time",
+      "location": "Noida / Bengaluru",
+      "jobLink": "https://adobe.com/careers/pde",
+      "notes": "Reached Round 2. Good learning on memory management and C++ smart pointers.",
+      "history": [
+        {
+          "status": "Applied",
+          "date": "2026-08-03",
+          "note": "Campus drive application"
+        },
+        {
+          "status": "Assessment",
+          "date": "2026-08-08",
+          "note": "Online test cleared"
+        },
+        {
+          "status": "Interview",
+          "date": "2026-08-16",
+          "note": "Completed Round 1"
+        },
+        {
+          "status": "Rejected",
+          "date": "2026-08-21",
+          "note": "Position closed with alternate candidate"
+        }
+      ],
+      "createdAt": "2026-08-04T05:14:12.904Z",
+      "updatedAt": "2026-08-23T05:14:12.904Z"
+    },
+    {
+      "id": "app-008",
+      "userId": "demo-student-id-101",
+      "company": "Oracle",
+      "role": "Server Technologies Engineer",
+      "packageLPA": 21,
+      "currency": "₹",
+      "applicationDate": "2026-08-26",
+      "status": "Applied",
+      "jobType": "Full Time",
+      "location": "Bengaluru / Pune",
+      "jobLink": "https://oracle.com/careers/student",
+      "notes": "Application submitted on college portal. Shortlist announcement expected by September 5.",
+      "history": [
+        {
+          "status": "Applied",
+          "date": "2026-08-26",
+          "note": "Initial resume submission and GPA verification"
+        }
+      ],
+      "createdAt": "2026-08-27T05:14:12.904Z",
+      "updatedAt": "2026-08-27T05:14:12.904Z"
+    },
+    {
+      "id": "app-009",
+      "userId": "demo-student-id-101",
+      "company": "Uber",
+      "role": "Backend Software Engineer",
+      "packageLPA": 48,
+      "currency": "₹",
+      "applicationDate": "2026-08-28",
+      "status": "Applied",
+      "jobType": "Internship",
+      "location": "Hyderabad, India",
+      "jobLink": "https://uber.com/careers/swe-intern",
+      "referral": "Referred by Tech Lead",
+      "notes": "Application in initial screening stage. Follow up with recruiter if no update in 2 weeks.",
+      "history": [
+        {
+          "status": "Applied",
+          "date": "2026-08-28",
+          "note": "Submitted via Referral link"
+        }
+      ],
+      "createdAt": "2026-08-29T05:14:12.904Z",
+      "updatedAt": "2026-08-29T05:14:12.904Z"
+    }
+  ]
+}

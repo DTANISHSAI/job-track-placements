@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Dark Rounded Square Container -->
+  <rect width="64" height="64" rx="18" fill="#18181b"/>
+  
+  <!-- Briefcase Icon -->
+  <!-- Top Handle -->
+  <path d="M25 21V19C25 16.7909 26.7909 15 29 15H35C37.2091 15 39 16.7909 39 19V21" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Main Briefcase Body -->
+  <rect x="13" y="21" width="38" height="26" rx="6" stroke="#ffffff" stroke-width="4.5" stroke-linejoin="round"/>
+  
+  <!-- Two Vertical Divider Straps -->
+  <line x1="24" y1="23" x2="24" y2="45" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="40" y1="23" x2="40" y2="45" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
+</svg>
